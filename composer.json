@@ -1,0 +1,34 @@
+{
+  "name": "inerciacreativa/wp-missed-schedule",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "Soluciona problemas de \"programación perdida\".",
+  "homepage": "https://github.com/inerciacreativa/wp-missed-schedule",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "wordpress-plugin"
+  ],
+  "authors": [
+    {
+      "name": "José Cuesta",
+      "email": "jose.cuesta@inerciacreativa.com",
+      "homepage": "https://inerciacreativa.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "extra": {
+    "installer-name": "ic-missed-schedule"
+  },
+  "autoload": {
+    "psr-4": {
+      "ic\\Plugin\\MissedSchedule\\": "source/"
+    }
+  }
+}
